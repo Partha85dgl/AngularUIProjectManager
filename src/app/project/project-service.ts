@@ -21,7 +21,7 @@ export class ProjectService {
       return this._http.post(this.baseUrl, projectBody, requestOptions);
       // .map(res => res.json()) // ...and calling .json() on the response to return data
       // .catch((error:any) => this._errorHandler(error.error)) //...errors if
-      // .subscribe();
+      // .subscribe();//test comment
     }
    
     getprojects(): Observable<Project[]>{
